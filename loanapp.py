@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load model
-model = pickle.load(open(r"C:\Users\mopokud\Downloads\my_model.pkl", "rb"))
+model = pickle.load(open("my_model.pkl", "rb"))
 
 def main():
     st.title("Loan Approval Prediction")
